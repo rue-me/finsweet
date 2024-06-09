@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+   
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    padding: 5px 20px 5px 0px;
+    border-right: 1px solid green;
+    
+}
+nav ul li {
+    list-style: none;
+    font-weight: 600px;
+}
+
+nav .right-contact{
+    display: flex;
+    align-items: center;
+}
+
+nav .right-contact-text p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Main styling */
+main{
+    height: 91vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+
+main .container .left{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding: 30px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container .left .left-text{
+    width: 70%;
+   font-size: 30px;
+}
+
+button{
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 200px;
+    background-color: orangered;
+}
+
+main .container .left .left-text .reviews {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+main .container .left .left-text .reviews .small-text{
+    font-size: 15px;
+   
+}
+
+main .container .left .left-text .reviews .review-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .container .right{
+    width: 50%;
+    height: 100%;
+    background-image:url("/img/pexels-august-de-richelieu-8367221.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .container .right .service{
+    position: absolute;
+    left: -10%;
+    top: 30px;
+
+
+}
+
+main .container .right .written{
+    position: absolute;
+    right: -5%;
+    bottom: 10px;
+
+}
+
+.service{
+    width: 200px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.658);
+    position: relative;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.205);
+} 
+
+.inside .left-logo{
+    height: 50px;  
+    width: 50px;
+    background-color: #5cba99;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
