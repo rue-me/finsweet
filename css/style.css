@@ -109,7 +109,7 @@ main .container .left .left-text .reviews .review-text{
 main .container .right{
     width: 50%;
     height: 100%;
-    background-image:url("/img/pexels-august-de-richelieu-8367221.jpg");
+    background-image:url("../img/pexels-august-de-richelieu-8367221.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
